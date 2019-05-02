@@ -1,0 +1,129 @@
+﻿#container {
+    width: 830px;
+    height: 500px;
+    margin-left: 30px;
+    /*margin-top: 80px;*/
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#y {
+    height: 100%;
+    width: 0;
+    border-left: 2px solid #646464;
+    position: absolute;
+}
+
+
+#x {
+    height: 0;
+    width: 100%;
+    border-bottom: 2px solid #646464;
+    position: absolute;
+    top: 98%;
+    left: 5px;
+    transform: rotate(-90%);
+}
+
+#x-0 {
+    height: 0;
+    width: 100%;
+    border-bottom: 2px solid #585858;
+    position: absolute;
+    bottom: 169.5px;
+    left: 5px;
+    transform: rotate(-90%);
+}
+
+#y-0 {
+    height: 0;
+    width: 495px;
+    border-bottom: 2px solid #585858;
+    position: absolute;
+    top: 245px;
+    left: 109.8px;
+    transform: rotate(90deg);
+}
+
+.line-v {
+    width: 20px;
+    border-right: 2px solid #121212;
+    position: absolute;
+    top: 97.8%;
+    height: 5px;
+}
+
+.big-line-v {
+    height: 10px;
+    top: 97.5%;
+}
+
+.line-h {
+    width: 6px;
+    height: 20px;
+    position: absolute;
+    border-bottom: 2px solid #121212;
+    left: -0.2%;
+}
+
+.big-line-h {
+    width: 10px;
+    height: 20px;
+    left: -0.5%;
+}
+
+.num-v, .axis-x {
+    color: black;
+    font-size: 12px;
+    position: absolute;
+    top: 100%;
+}
+
+.s-num {
+    color: red !important;
+    font-size: 16px !important;
+    font-weight: bold;
+}
+
+.num-h, .axis-y {
+    color: black;
+    font-size: 12px;
+    position: absolute;
+    left: -2.7%;
+    transform: rotate(-90deg);
+}
+
+.axis-x, .axis-y {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.red-line {
+    border-color: red !important;
+}
+
+/* ---- */
+#coord-cont, .canvas2 {
+    width: 820px;
+    height: 485px;
+    /*background-color: blue;*/
+    position: absolute;
+    top: 0;
+    left: 5px;
+}
+
+#coord-cont:hover {
+    cursor: crosshair
+} 
+
+.canvas2 {
+    opacity: 0.5;
+}
+
+#canvas3 {
+    /*background-color: yellow;*/
+    width: 820px;
+    height: 485px;
+    position: relative;
+}
+

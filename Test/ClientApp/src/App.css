@@ -1,0 +1,35 @@
+﻿html {
+    min-height: 100%;
+}
+
+body {
+    height: 100%;
+    min-width: 1360px;
+    margin: 0;
+    padding: 0;
+    background-color: #f1edec;
+    font-family: 'Roboto', sans-serif;
+}
+
+#root {
+    height: 100%;
+    min-width: 1360px;
+    max-width: 1366px;
+    margin: 0;
+    padding: 0;
+    background-color: #f1edec;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    border: 2px solid white;
+    border-top: none;
+}
+
+.main-content {
+    background-color: white;
+}
+
+.main-block {
+    display: flex;
+    /*justify-content: space-between;*/
+}
+
